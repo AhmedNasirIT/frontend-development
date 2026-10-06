@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0px;
+  background-color: white;
+  font-family: sans-serif;
+}
+#card {
+  background-color:  white;
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(224, 222, 215);
+  box-shadow: 0 1px 8px rgb(192, 192, 192);
+  padding: 20px;
+  margin: 0 40px;
+  border-radius: 15px;
+}
+#header {
+  font-size: 32px;
+  margin: 21px 0;
+  font-weight: bold;
+}
+.capt {
+  width: 100%;
+}
+.req {
+  color: red;
+  padding: 0 3px;
+}
+#form {
+  width: 100%;
+}
+.category {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 30px;
+  row-gap: 15px;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 9px;
+  border: 1px solid #498061(205, 40%, 60%);
+}
+.sub-category {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  background-color: #fafcfd;
+  border-radius: 7px;
+}
+.main-legend {
+  background-color: #498061;
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 10px solid #498061;
+}
+.sub-legend {
+  padding: 4px;
+}
+label {
+  font-weight: bold;
+}
+.duo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-basis: calc(50% - 30px);
+  flex-grow: 1;
+  input {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+}
+.middle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-basis: 100%;
+  label {
+    font-weight: normal;
+  }
+}
+.address {
+  flex-basis: 100%;
+  textarea {
+    width: 100%;
+    margin-top: 4px;
+    height: 70px;
+    max-width: 100%;
+    min-width: 0;
+  }
+}
+.general-label {
+  font-weight: bold;
+}
+input {
+  border: 1px solid grey;
+  margin-top: 4px;
+  height: 35px;
+  border-radius: 4px;
+  padding-left: 9px;
+  max-width: 100%;
+  min-width: 0;
+}
+.select {
+  width: 100%;
+  height: 35px;
+  margin-top: 4px;
+  border-radius: 4px;
+  padding: 0px 9px 0px;
+  max-width: 100%;
+  min-width: 0;
+}
+.sub-box {
+  margin-top: 10px;
+  width: 100%;
+}
+.doc-input {
+  width: 100%;
+  background-color: #fafcfd;
+  padding-top: 6px;
+  height: 35px;
+}
+.format {
+  font-size: 12px;
+  color: rgb(70, 69, 69);
+  font-style: italic;
+}
+.boxbutton {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  margin-top: 20px;
+}
+.reset-button {
+  height: 35px;
+  border-radius: 4px;
+  margin-right: 20px;
+  border: none;
+  padding: 10px;
+}
+.submit-button {
+  height: 35px;
+  border-radius: 4px;
+  border: none;
+  background-color: #0861c7;
+  padding: 10px;
+  color: white;
+}
